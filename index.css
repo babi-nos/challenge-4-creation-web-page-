@@ -43,7 +43,7 @@ body {
 
 header {
     height: 650px;
-    background-image: url(desktop-image-hero.jpg);
+    background-image: url("https://babi-nos.github.io/desktop-image.jpg");
     background-size: cover;
     margin: auto;
     position: relative;
