@@ -10,20 +10,21 @@
     header .navbar .acroche {
         position: absolute !important;
     }
+}
 
-    @media screen and (width >=768px) and (width <=1108px) {
-        #our-creation .creations h1 {
-            font-size: 3.9em !important;
-            font-weight: 500 !important;
-        }
+@media screen and (width >=768px) and (width <=1108px) {
+    #our-creation .creations h1 {
+        font-size: 3.9em !important;
+        font-weight: 500 !important;
+    }
 
-        #vr-interactive .description h1 {
-            font-size: 47px !important;
-            font-weight: 500 !important;
+    #vr-interactive .description h1 {
+        font-size: 47px !important;
+        font-weight: 500 !important;
 
-        }
     }
 }
+
 
 
 
@@ -43,8 +44,7 @@ body {
 
 header {
     height: 650px;
-    /* background-image: url(images\desktop\image-hero.jpg); */
-    background-image: url(image-hero.jpg);
+    background-image: url(./images/desktop/image-hero.jpg);
 
     background-size: cover;
     margin: auto;
